@@ -1,0 +1,25 @@
+{
+  "name": "anonium-contracts",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "seed:local": "hardhat run scripts/seed-demo.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "seed:sepolia": "hardhat run scripts/seed-demo.js --network sepolia"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Semaphore-based anonymous insider verification contracts",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.2",
+    "@semaphore-protocol/contracts": "^4.14.5",
+    "@semaphore-protocol/core": "^4.14.5",
+    "@semaphore-protocol/hardhat": "^4.14.5",
+    "dotenv": "^18.0.10",
+    "hardhat": "^2.29.2"
+  }
+}

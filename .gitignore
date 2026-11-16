@@ -1,0 +1,4 @@
+node_modules
+.env
+# Demo private keys written by seed-demo.js. Never commit.
+deployments/demo-identities.json

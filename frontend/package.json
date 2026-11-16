@@ -1,0 +1,29 @@
+{
+  "name": "anonium-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "dev:sepolia": "vite --mode sepolia",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@semaphore-protocol/core": "^4.14.5",
+    "ethers": "^6.17.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.18.5"
+  },
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "@vitejs/plugin-react": "^6.3.0",
+    "tailwindcss": "^4.3.5",
+    "vite": "^8.3.8"
+  }
+}

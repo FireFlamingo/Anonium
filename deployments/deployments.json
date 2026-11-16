@@ -1,0 +1,22 @@
+{
+  "31337": {
+    "network": "localhost",
+    "chainId": 31337,
+    "deployedAt": "2026-11-16T08:48:30.127Z",
+    "startBlock": 5,
+    "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+    "Semaphore": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+    "GroupManager": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
+    "WhistleblowVerifier": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9"
+  },
+  "11155111": {
+    "network": "sepolia",
+    "chainId": 11155111,
+    "deployedAt": "2026-11-16T09:23:49.408Z",
+    "startBlock": 12146420,
+    "deployer": "0x0Ec3f076490d21B4f137dAfa526e0768c8AAd55f",
+    "Semaphore": "0x8A1fd199516489B0Fb7153EB5f075cDAC83c693D",
+    "GroupManager": "0x3830e82a379c51712D7B626c409146792fA43dd3",
+    "WhistleblowVerifier": "0xcE592540D951b83fB97BC1536D9e9c1C5b08e92f"
+  }
+}
